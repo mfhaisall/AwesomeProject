@@ -1,14 +1,12 @@
-import { StyleSheet, Text, View } from 'react-native'
-import React from 'react'
+import React from "react";
+import { ScrollView, Text, View } from "react-native";
 
-const rendang = () => {
-  return (
-    <View>
-      <Text>rendang</Text>
-    </View>
-  )
+export default function rendang(){
+    return(
+        <ScrollView>
+           <View>
+            <Text>hallo</Text>
+        </View>
+        </ScrollView>
+    )
 }
-
-export default rendang
-
-const styles = StyleSheet.create({})
